@@ -1,0 +1,32 @@
+nav {
+  background-color: blue;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+.logo-text {
+  font-size: 3em;
+  font-weight: 700;
+  color: rgb(244, 244, 245);
+}
+
+.nav-link {
+  font-size: 1.8em;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #F05136;
+}
